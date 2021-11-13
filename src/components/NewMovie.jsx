@@ -72,9 +72,11 @@ const NewMovie = ({add}) => {
                   <button onClick={closeModal}  className="btn btn-danger"  >Cancel</button>
               </div>
           </form>
+          
       </Modal>
+      
         </div>
     )
-}
-
+  }
+  
 export default NewMovie
